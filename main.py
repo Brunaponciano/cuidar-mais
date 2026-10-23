@@ -1,5 +1,8 @@
 
 import json
+# Importa a classe datetime, utilizada para trabalhar
+# com datas e horários, validar datas de consultas
+# e registrar o momento em que uma dose foi tomada.
 from datetime import datetime
 
 # ==========================================
@@ -15,11 +18,9 @@ print("=" * 40)
 
 # ==========================================
 # FUNÇÃO PARA SALVAR OS DADOS
-# ==========================================
-
-
-# ==========================================
-# FUNÇÃO PARA SALVAR OS DADOS
+# Salva as informações de medicamentos e consultas
+# nos respectivos arquivos JSON, para que os dados
+# continuem disponíveis quando o programa for fechado.
 # ==========================================
 
 def salvar_dados():
