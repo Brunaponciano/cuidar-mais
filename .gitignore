@@ -1,0 +1,10 @@
+# Arquivos JSON com dados armazenados localmente
+medicamentos.json
+consultas.json
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Configurações locais do VS Code
+.vscode/
